@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Design</title>
+       
+    <!--box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--Custome css-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+    <a href="#" class="logo">
+        
+        <img src="icons8-r-project-48.png" alt="icon"></a>
+   
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#contact" class="active">CONTACT ME</a>
+    </nav>
+</header>
+
+<!--home section design-->
+<section class="home" id="home">
+    <div class="home-content">
+
+       <h3>Hello, It's Me</h3>
+        <h1>Rohini Gorhe</h1>
+        <h3>And I'm a passionate
+        <span id="element"></span></h3>
+        <p>To work with an organization where I can learn new 
+            skills and increase my 
+            abilities for the organizational
+            goals as well as myself.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/rohini-gorhe/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="mailto:rggorhe2000@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                <a href="https://github.com/Rohini-Gorhe" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.facebook.com/nilesh.gorhe.56?mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/rohini_gorhe/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class='bx bxl-instagram' ></i></a>
+
+            </div>
+            <a href="Rohini CV.pdf" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="image.png" alt="image">
+
+    </div>
+</section>
+
+<!--About section design-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="about.png" alt="image">
+
+    </div>
+
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web Developer</h3>
+        <p>I am an information technology engineering graduate from MCOERC, Nashik.
+           I am proficient in C, C++, and Java. I am looking to start a career as an entry-level 
+           software engineer with a reputed firm driven by technology. 
+           I would love to work in challenging roles where my skills 
+           will be utilized to the fullest so that they will add value to the organization 
+           and me as well.
+           Outside of tech, I am a tea lover,and I love cooking.</p>
+           <a href="#" class="btn">Read More</a>
+
+    </div>
+</section>
+
+<!--skills section design-->
+
+<section class="skills" id="skills">
+    <h2 class="heading">Our <span>  Skills </span></h2>
+
+    <div class="skills-container">
+        <div class="skills-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <p>Web development refers to the creating, building, and maintaining of websites. 
+                It includes aspects such as web design, web publishing, web programming, and database management. 
+                It is the creation of an application that works over the internet i.e. websites.</p>
+        </div>
+
+        <div class="skills-box">
+            <i class='bx bx-code'></i>
+            <h3>front-end Developer</h3>
+            <p>A front-end developer creates websites and applications using web languages
+               such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. 
+                When you visit a website, the design elements you see were created by a front-end developer.</p>
+        </div>
+
+        <div class="skills-box">
+            <i class='bx bx-code-curly' ></i>
+            <h3>Java Developer</h3>
+            <p>Java was originally developed by James Gosling at Sun Microsystems. 
+                It was released in May 1995 as a core component of Sun Microsystems' Java platform. 
+                The original and reference implementation Java compilers, virtual machines, 
+                and class libraries were originally released by Sun under proprietary licenses.</p>
+        </div>
+    </div>
+</section>
+
+<!--Education section design-->
+<section class="education" id="education">
+    <h2 class="heading"><span>  Education </span></h2>
+
+
+  <div class="education-container">
+    <div class="education-box">
+    <h3>Secondary School Certificate (SSC) </h3>
+    <p >Janta Vidyalay School,<br> Barshingave,<br>Nashik<br>2016<br></p> 
+    <a href="ssc.html" class="btn">Read More</a>
+        </div>
+        
+
+
+    <div class="education-box">
+            <h3>Diploma In Computer Engineering</h3>
+            <p >Faculty of Polytechnic,<br> Akole<br> Ahmdnager<br>2020<br></p> 
+            <a href="diploma.html" class="btn">Read More</a>
+        </div>
+
+        <div class="education-box">
+            <h3>Degree In Information Technology</h3>
+            <p >Matoshri College Of Engineering & Research Centre, Eklhare, <br>Nashik<br>2023<br></p> 
+            <a href="degree.html" class="btn">Read More</a>
+                </div>
+            </div>
+
+</section>
+
+<!--Contact section design-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span> Me!</span></h2>
+
+    <form action="/submit-form" name="validateForm" method="POST">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" name="fullName">
+            <input type="email" placeholder="Email Address" name="email">
+        </div>
+         
+        <div class="input-box">
+            <input type="tel" placeholder="Mobile Number" name="mobileNumber">
+            <input type="text" placeholder="Email Subject" name="emailSubject">
+        </div>
+        
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+
+    <script src="index.js"></script>
+    
+</section>
+
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by codehal | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<!--Scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--custom js-->
+<script src="index.js"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!--Setup and start animation!-->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','MEAN Stack','Java Developer','Web Designer','C/C++ Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
